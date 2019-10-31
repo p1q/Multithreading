@@ -7,7 +7,7 @@ public class SumByForkJoin extends RecursiveTask<Integer> {
     private List<Integer> elements;
     private Integer sum = 0;
 
-    SumByForkJoin(List<Integer> elements) {
+    public SumByForkJoin(List<Integer> elements) {
         this.elements = elements;
     }
 
